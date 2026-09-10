@@ -23,7 +23,7 @@ public class CubeBehaviorEditor : Editor
 
         if (size.intValue < 1)
         {
-            EditorGUILayout.HelpBox("Cube size must be greater than 0! :(", MessageType.Error);
+            EditorGUILayout.HelpBox("Cube size must be greater than 0! :(", MessageType.Warning);
         }
         // Adds buttons in horzizontal layout
         EditorGUILayout.BeginHorizontal();
